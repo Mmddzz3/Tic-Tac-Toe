@@ -129,6 +129,7 @@ body {
 }
 
 .winning-message {
+	display: none;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -140,6 +141,7 @@ body {
 	align-items: center;
 	color: white;
 	font-size: 5rem;
+	flex-direction: column;
 }
 
 .winning-message button {
@@ -152,7 +154,7 @@ body {
 }
 
 .winning-message button:hover {
-	background-color: black;
+	background-color: rgba(0, 0, 0, .9);
 	border-color: white;
 	color: white;
 }
