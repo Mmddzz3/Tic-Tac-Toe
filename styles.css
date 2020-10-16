@@ -138,4 +138,10 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	color: white;
+	font-size: 5rem;
+}
+
+.winning-message button {
+	
 }
