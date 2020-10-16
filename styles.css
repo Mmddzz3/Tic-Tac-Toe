@@ -143,5 +143,16 @@ body {
 }
 
 .winning-message button {
-	
+	font-size: 3rem;
+	background-color: white;
+	border: 1px solid black;
+	padding: .25rem .5rem;
+	cursor: pointer; 
+	border-radius: 20px;
+}
+
+.winning-message button:hover {
+	background-color: black;
+	border-color: white;
+	color: white;
 }
