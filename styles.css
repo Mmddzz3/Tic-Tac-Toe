@@ -58,8 +58,9 @@ body {
 	cursor: not-allowed;
 }
 
-.board.x .cell:hover {
-
+.board.x .cell:not(.x):not(.circle):hover::before,
+.board.x .cell:not(.x):not(.circle):hover::after {
+	background-color: lightgrey;
 }
 
 .cell.x::before,
