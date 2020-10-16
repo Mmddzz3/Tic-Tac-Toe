@@ -26,6 +26,9 @@ body {
 	width: var(--cell-size);
 	height: var(--cell-size);
 	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .cell:first-child,
